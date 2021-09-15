@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Toyota";
-    src: url(toyota-display-bold.woff.ttf) format("truetype");
+    src: url(fonts/toyota-display-bold.woff.ttf) format("truetype");
 }
 :root {
     --blue: dodgerblue;
@@ -44,7 +44,7 @@ html, body{
 }
 .img-perfil{
     margin-bottom: 20px;
-    background: url(perfil.png);
+    background: url(imagens/perfil.png);
     height: 135px;
     width: 135px;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ html, body{
     width: 365px;
 }
 .resize-svg-boneco{
-    background: url(boneco2.svg);
+    background: url(imagens/boneco2.svg);
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
